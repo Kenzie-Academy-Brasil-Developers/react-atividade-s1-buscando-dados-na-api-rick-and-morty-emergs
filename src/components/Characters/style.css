@@ -4,9 +4,10 @@ h1{
 }
 
 ul{
-  width: 100%;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   gap:20px;
+  margin: 0 auto;
 }
