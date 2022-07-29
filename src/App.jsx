@@ -9,7 +9,9 @@ function App() {
     fetch('https://rickandmortyapi.com/api/character/')
     .then((response)=>response.json())
     //.then((response)=>console.log(response.results))
-    .then((response)=> setCharacterList(response))
+    .then((response)=> {
+      console.log(response)
+      setCharacterList(response)})
     .catch((err)=>console.log(err))
   },[])
 
